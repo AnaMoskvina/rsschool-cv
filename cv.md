@@ -53,4 +53,4 @@ function bubbleSort(arr) {
 
 #### English:
 
-C1 (studied abroad in English; TOEFL score - 96).
+C1 (studied abroad in English; TOEFL score - 96)
