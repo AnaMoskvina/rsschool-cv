@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>CV Anastasiia Moskvina</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <img class="cv-photo" src="photo.jpg" alt="cv-photo">
+      <div class="header-box">
+        <h1 class="name">Anastasiia Moskvina</h1>
+        <p class="position">junior front-end developer</p>
+      </div>
+    </header>
+    <main>
+      <section class="section section-contacts" id="section-contacts">
+        <h2>Contacts:</h2>
+        <ul>
+          <li>moskvinaanastasia@gmail.com</li>
+          <li>+7 (952) 396-00-68</li>
+        </ul>
+      </section>
+      <section class="section section-about" id="section-about">
+        <h2>About me:</h2>
+        <p>
+          Used to be a lawyer, started learning front-end in November, 2020 to
+          make a switch in profession and get a junior front-end developer
+          position in 2021.
+        </p>
+        <p>
+          So far, almost learned core JS as well as HTML and CSS, getting
+          acquainted with algorythms and data structures.
+        </p>
+        <p>
+          Speaking on soft skills, good in analytical thinking, problem
+          solving and negotiations (as used to deal with legal disputes),
+          always in learning new.
+        </p>
+      </section>
+      <section class="section section-skills" id="section-skills">
+        <h2>Skill set:</h2>
+        <ul>
+          <li>Core JavaScript, HTML, CSS (and SASS);</li>
+          <li>Git, VS Code.</li>
+        </ul>
+      </section>
+      <section class="section section-code" id="section-code">
+        <h2>Code example:</h2>
+        <br>
+        <pre>
+function bubbleSort(arr) {
+  let noSwaps;
+  for (let i = arr.length - 1; i >= 0; i--) {
+    noSwaps = true;
+    for (let j = 0; j &lt; i; j++) {
+      if (arr[j] > arr[j + 1]) {
+        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+        noSwaps = false;
+        }
+      }
+    if (noSwaps) break;
+    }
+  return arr;
+}
+          </pre>
+      </section>
+      <section class="section section-experience" id="section-experience">
+        <h2>Work experience and education:</h2>
+        <h3>Courses:</h3>
+        <ul class="list-title">
+          <li>
+            <a href="https://openedu.ru/course/ITMOUniversity/WEBDEV/" target="_blank">Web-development</a>
+          </li>
+          <li>
+            <a href="https://www.udemy.com/course/the-complete-javascript-course/" target="_blank">The Complete
+              JavaScript Course</a>
+          </li>
+          <li>
+            <a href="https://www.udemy.com/course/advanced-css-and-sass/" target="_blank">Advanced CSS and SASS</a>
+          </li>
+        </ul>
+        <h3>Student projects:</h3>
+        <ul class="list-title">
+          <li>
+            <a href="https://github.com/AnaMoskvina/Guess-My-Number" target="blank">Guess my number game</a>
+          </li>
+          <li>
+            <a href="https://github.com/AnaMoskvina/Pig-game" target="_blank">Pig game</a>
+          </li>
+          <li>
+            <a href="https://github.com/AnaMoskvina/Mapty" target="_blank">Mapty</a>
+          </li>
+        </ul>
+        <h3>Pet project:</h3>
+        <ul class="list-title">
+          <li>
+            <a href="https://github.com/AnaMoskvina/Wishlist" target="_blank">Wishlist</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section section-english" id="section-english">
+        <h2>English:</h2>
+        <p>C1 (studied abroad in English; TOEFL score - 96).</p>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li><a class="nav-link" href="#section-contacts" target="_blank">Contacts</a></li>
+          <li><a class="nav-link" href="#section-about" target="_blank">About me</a></li>
+          <li><a class="nav-link" href="#section-skills" target="_blank">Skills</a></li>
+          <li><a class="nav-link" href="#section-code" target="_blank">Code example</a></li>
+          <li><a class="nav-link" href="#section-experience" target="_blank">Experience</a></li>
+          <li><a class="nav-link" href="#section-english" target="_blank">English</a></li>
+          <li><a class="nav-link" href="https://github.com/AnaMoskvina" target="_blank">GitHub</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </div>
+</body>
+
+</html>

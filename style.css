@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 18px;
+    color: #222;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #fff;
+}
+
+header {
+    position: relative;
+    height: 50vh;
+    min-height: 20rem;
+    border-bottom: 3px solid #cfd6dd;
+    background-image: linear-gradient(0deg, #fff 0%, #fff 60%, #cfd6dd 60%);   
+}
+
+footer {
+    position: relative;
+    height: 10vh;
+    min-height: 3.8rem;
+    background-color: #cfd6dd;
+}
+
+.cv-photo {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 60%;
+    border-radius: 50%;
+}
+
+.header-box {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+pre {
+    font-size: 80%;
+}
+
+.section {
+    padding: 20px;
+}
+
+.section:not(:last-child) {
+    border-bottom: 1px solid #cfd6dd;
+}
+
+h1, h2, h3 {
+    color: #7d675d;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+  
+h2 {
+    font-size: 1.2rem;
+}
+  
+h3 {
+    font-size: .95rem;
+}
+
+p,
+li,
+h2,
+h3, 
+h1 {
+    margin-bottom: .5rem;
+}
+  
+a {
+    display:inline-block;
+    text-decoration: none;  
+    color: inherit;
+    border-bottom: 1px dashed #7d675d;
+    transition: all .2s;
+}
+
+a:hover,
+a:active {
+    transform: scale(1.05);
+}
+
+nav {
+    position: absolute;
+    top: 5%;
+    right: 10px;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 600px)  {
+
+    .container {
+        width: 95%;
+        margin-left: auto;
+        margin-right:auto;
+        background-color: #fff;   
+    }
+    .cv-photo {
+        display: none;
+    }
+
+    header {
+        height: 10%;
+        min-height: 8rem;
+        border-top: 3px solid #cfd6dd;
+        border-bottom: 3px solid #cfd6dd;
+        background-image: none;
+    }
+
+    .header-box {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    footer {
+        position: relative;
+        height: 10vh;
+        min-height: 0;
+        border-top: 3px solid #cfd6dd;
+        background-color: #fff;   
+    }
+}
